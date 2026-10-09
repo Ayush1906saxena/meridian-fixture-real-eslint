@@ -1,0 +1,4 @@
+{
+  "pack": "node",
+  "test": "mkdir -p .meridian-reports && npm install --no-audit --no-fund && npx mocha --reporter xunit --reporter-option output=.meridian-reports/junit.xml tests/lib/rules/no-var.js"
+}
